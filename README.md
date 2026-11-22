@@ -2,27 +2,23 @@
 <div align="center">
 
 <a href="https://2491zero.github.io/2491zero/">
-<img src="https://img.shields.io/badge/ENTER-2491ZERO_CYBER_OPERATIONS_CENTER-39FF88?style=for-the-badge&logo=linux&logoColor=black"/>
+<img src="https://img.shields.io/badge/⚡_LAUNCH-CYBER_OPERATIONS_CENTER-39FF88?style=for-the-badge&labelColor=07140D"/>
 </a>
 
-</div>
-
-<div align="center">
+<br/><br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020503,45:073B20,100:20D969&height=230&section=header&text=2491ZERO&fontSize=78&fontColor=39FF88&fontAlignY=38&desc=CYBERSECURITY%20ENGINEERING&descAlignY=60&descSize=19&animation=fadeIn" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2800&pause=900&color=39FF88&center=true&vCenter=true&width=850&lines=root%402491zero%3A~%24+whoami;CYBERSECURITY+ENGINEER;NETWORK+SECURITY+%7C+WEB+SECURITY;PYTHON+%7C+LINUX+%7C+MALWARE+ANALYSIS;ENGINEER+THE+DEFENSE" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2800&pause=900&color=39FF88&center=true&vCenter=true&width=850&lines=root%402491zero%3A~%24+whoami;CYBERSECURITY+ENGINEER;NETWORK+SECURITY+%7C+WEB+SECURITY;PYTHON+%7C+LINUX+%7C+MALWARE+ANALYSIS;ENGINEER+THE+DEFENSE"/>
 
-<br/>
+<br/><br/>
 
 <a href="https://github.com/2491zero">
 <img src="https://img.shields.io/badge/GITHUB-2491ZERO-102719?style=for-the-badge&logo=github&logoColor=39FF88"/>
 </a>
-
 <a href="https://2491zero.github.io/2491zero/">
-<img src="https://img.shields.io/badge/OPEN-CYBER_OPERATIONS_CENTER-39FF88?style=for-the-badge&logo=linux&logoColor=black"/>
+<img src="https://img.shields.io/badge/CYBER-OPERATIONS_CENTER-39FF88?style=for-the-badge&logo=linux&logoColor=black"/>
 </a>
-
 <a href="https://github.com/2491zero?tab=repositories">
 <img src="https://img.shields.io/badge/EXPLORE-REPOSITORIES-102719?style=for-the-badge&logo=github"/>
 </a>
@@ -37,42 +33,28 @@
 
 ---
 
-# `00 // SYSTEM ACCESS`
+# `00 // SYSTEM IDENTITY`
 
 ```text
 +----------------------------------------------------------+
-|                 2491ZERO SECURITY SYSTEM                 |
+|                  2491ZERO SECURITY SYSTEM                |
 +----------------------------------------------------------+
 |                                                          |
-|  USER       : 2491ZERO                                    |
-|  ROLE       : CYBERSECURITY ENGINEER                      |
-|  SPECIALTY  : INFORMATION SECURITY                       |
-|  ENVIRONMENT: LINUX / NETWORK / WEB                      |
-|  LANGUAGE   : PYTHON / BASH                              |
-|  OBJECTIVE  : ENGINEER THE DEFENSE                        |
+|  USER        : 2491ZERO                                   |
+|  ROLE        : CYBERSECURITY ENGINEER                     |
+|  SPECIALTY   : INFORMATION SECURITY                      |
+|  ENVIRONMENT : LINUX / NETWORK / WEB                     |
+|  LANGUAGES   : PYTHON / BASH                             |
+|  OBJECTIVE   : ENGINEER THE DEFENSE                       |
 |                                                          |
 +----------------------------------------------------------+
 ```
 
-<div align="center">
-
-<a href="https://2491zero.github.io/2491zero/">
-
-<img src="https://img.shields.io/badge/LAUNCH-INTERACTIVE_SECURITY_DASHBOARD-39FF88?style=for-the-badge&logo=linux&logoColor=black"/>
-
-</a>
-
-**ENTER THE CYBER OPERATIONS CENTER**
-
-</div>
-
----
-
 # `01 // WHOAMI`
 
-I'm focused on cybersecurity engineering, network security, web application security, Linux environments, Python development, and defensive security research.
+Cybersecurity-focused engineer with interests in network security, web application security, Linux environments, Python development, malware analysis, and defensive security research.
 
-My interests include understanding complex systems, analyzing security weaknesses, researching threats, and engineering tools that improve security visibility and defense.
+I enjoy understanding complex systems, investigating security weaknesses, and engineering technologies that improve security visibility, resilience, and defense.
 
 ```bash
 root@2491zero:~$ cat mission.txt
@@ -87,30 +69,38 @@ root@2491zero:~$ cat mission.txt
 
 ### CORE SPECIALIZATIONS
 
-| DOMAIN | FOCUS |
+| DOMAIN | TECHNICAL FOCUS |
 |:---|:---|
-| Network Security | Network analysis & defense |
+| Network Security | Traffic analysis & network defense |
 | Web Application Security | Application security |
 | Linux Security | System hardening |
 | Python Engineering | Security automation |
 | Malware Analysis | Static file analysis |
 | Threat Intelligence | IOC investigation |
+| Defensive Security | Monitoring & detection |
 
 ---
 
-# `02 // SECURITY OPERATIONS CENTER`
+# `02 // CYBER OPERATIONS CENTER`
 
 <div align="center">
 
 <a href="https://2491zero.github.io/2491zero/">
 
-<img src="https://img.shields.io/badge/ACCESS-DASHBOARD-39FF88?style=for-the-badge&logo=github"/>
+<img src="https://img.shields.io/badge/ACCESS-INTERACTIVE_CYBER_OPERATIONS_CENTER-39FF88?style=for-the-badge&logo=linux&logoColor=black"/>
 
 </a>
 
 <br/><br/>
 
-<img src="./assets/overview.dark.svg" width="100%" alt="2491ZERO GitHub Intelligence"/>
+**2491ZERO // SECURITY OPERATIONS INTERFACE**
+
+<sub>INTERACTIVE DASHBOARD · SECURITY VISUALIZATION · ANALYTICS</sub>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/PLATFORM-GITHUB_PAGES-102719?style=flat-square"/>
+<img src="https://img.shields.io/badge/INTERFACE-SECURITY_DASHBOARD-102719?style=flat-square"/>
 
 </div>
 
@@ -134,7 +124,7 @@ root@2491zero:~$ cat mission.txt
 
 </div>
 
-### SECURITY TECHNOLOGIES
+### SECURITY TOOLS & TECHNOLOGIES
 
 <div align="center">
 
@@ -159,7 +149,9 @@ CodeShield/
 ThreatLens/
 ```
 
-> Project development roadmap. Projects marked Planned are not yet released.
+<sub>PROJECT DEVELOPMENT ROADMAP</sub>
+
+> The following projects are planned initiatives and are not presented as completed releases.
 
 ### 01 — SENTINELX SIEM
 
@@ -172,7 +164,7 @@ ThreatLens/
 - Incident investigation
 
 <details>
-<summary>View SentinelX architecture objectives</summary>
+<summary>Architecture objectives</summary>
 
 - Log ingestion
 - Event processing
@@ -193,7 +185,7 @@ ThreatLens/
 - Network reporting
 
 <details>
-<summary>View NetMapper architecture objectives</summary>
+<summary>Architecture objectives</summary>
 
 - Network inventory
 - Asset classification
@@ -214,7 +206,7 @@ ThreatLens/
 - Safe isolated research
 
 <details>
-<summary>View MalwareLab architecture objectives</summary>
+<summary>Architecture objectives</summary>
 
 - File inspection
 - Hash analysis
@@ -235,7 +227,7 @@ ThreatLens/
 - Security reporting
 
 <details>
-<summary>View CodeShield architecture objectives</summary>
+<summary>Architecture objectives</summary>
 
 - Source inspection
 - Rule-based analysis
@@ -256,7 +248,7 @@ ThreatLens/
 - Structured reporting
 
 <details>
-<summary>View ThreatLens architecture objectives</summary>
+<summary>Architecture objectives</summary>
 
 - IOC processing
 - Threat intelligence enrichment
@@ -268,25 +260,25 @@ ThreatLens/
 
 ---
 
-# `05 // GITHUB ANALYTICS`
+# `05 // GITHUB INTELLIGENCE`
 
 <div align="center">
 
 ### PROFILE OVERVIEW
 
-<img src="./assets/overview.dark.svg" width="100%" alt="Profile Overview"/>
+<img src="./assets/overview.dark.svg" width="100%" alt="GitHub Profile Overview"/>
 
 ### ANALYTICS CARDS
 
-<img src="./assets/cards.dark.svg" width="100%" alt="Analytics Cards"/>
+<img src="./assets/cards.dark.svg" width="100%" alt="GitHub Analytics Cards"/>
 
 ### CONTRIBUTION INTELLIGENCE
 
 <img src="./assets/contributions.dark.svg" width="100%" alt="Contribution Analytics"/>
 
-### PROGRAMMING LANGUAGES
+### PROGRAMMING LANGUAGE DISTRIBUTION
 
-<img src="./assets/languages.dark.svg" width="100%" alt="Language Statistics"/>
+<img src="./assets/languages.dark.svg" width="100%" alt="Programming Language Analytics"/>
 
 ### REPOSITORY INTELLIGENCE
 
@@ -314,7 +306,7 @@ ThreatLens/
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/2491zero/2491zero/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake"/>
+<img src="https://raw.githubusercontent.com/2491zero/2491zero/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub Contribution Snake"/>
 
 </div>
 
@@ -323,24 +315,24 @@ ThreatLens/
 # `07 // ENGINEERING ROADMAP`
 
 ```text
-                      2491ZERO
-                          |
-              +-----------+-----------+
-              |           |           |
-           NETWORK       WEB         LINUX
-           SECURITY    SECURITY     SECURITY
-              |           |           |
-              +-----------+-----------+
-                          |
-                 PYTHON ENGINEERING
-                          |
-                  MALWARE ANALYSIS
-                          |
-                 THREAT INTELLIGENCE
-                          |
-                 DEFENSIVE ENGINEERING
-                          |
-                  SECURITY RESEARCH
+                         2491ZERO
+                             |
+              +--------------+--------------+
+              |              |              |
+           NETWORK           WEB           LINUX
+           SECURITY        SECURITY       SECURITY
+              |              |              |
+              +--------------+--------------+
+                             |
+                    PYTHON ENGINEERING
+                             |
+                      MALWARE ANALYSIS
+                             |
+                     THREAT INTELLIGENCE
+                             |
+                    DEFENSIVE ENGINEERING
+                             |
+                      SECURITY RESEARCH
 ```
 
 ### CURRENT TECHNICAL FOCUS
@@ -357,7 +349,7 @@ ThreatLens/
 
 ---
 
-# `08 // SECURITY PRINCIPLES`
+# `08 // SECURITY ENGINEERING PRINCIPLES`
 
 ```text
 +------------------------------------------------------+
@@ -398,21 +390,15 @@ Build defensive solutions.
 <div align="center">
 
 <a href="https://github.com/2491zero">
-
 <img src="https://img.shields.io/badge/GITHUB-2491ZERO-39FF88?style=for-the-badge&logo=github&logoColor=black"/>
-
 </a>
 
 <a href="https://github.com/2491zero?tab=repositories">
-
 <img src="https://img.shields.io/badge/EXPLORE-REPOSITORIES-102719?style=for-the-badge&logo=github"/>
-
 </a>
 
 <a href="https://2491zero.github.io/2491zero/">
-
 <img src="https://img.shields.io/badge/LAUNCH-CYBER_DASHBOARD-102719?style=for-the-badge&logo=linux"/>
-
 </a>
 
 </div>
