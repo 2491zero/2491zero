@@ -1,1 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#050907">
+<meta name="description" content="2491ZERO Cybersecurity Operations Center">
+<title>2491ZERO | Cyber Operations Center</title>
 
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+:root {
+--bg:#050907;
+--panel:#0a120e;
+--panel2:#0d1812;
+--border:#193b28;
+--green:#39ff88;
+--green2:#13c968;
+--muted:#789583;
+--text:#e4f5e9;
+}
+
+* {
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+html {scroll-behavior:smooth;}
+
+body {
+background:
+radial-gradient(ellipse at 50% -20%,#123820 0%,transparent 55%),
+var(--bg);
+color:var(--text);
+font-family:Inter,sans-serif;
+min-height:100vh;
+}
+
+a {color:inherit;text-decoration:none;}
+
+.container {
+width:min(1450px,94%);
+margin:auto;
+}
+
+.mono {font-family:"JetBrains Mono",monospace;}
+
+header {
+border-bottom:1px solid var(--border);
+background:#050907ed;
+position:sticky;
+top:0;
+z-index:20;
+backdrop-filter:blur(15px);
+}
+
+.nav {
+min-height:72px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:20px;
+}
+
+.brand {
+font-family:"JetBrains Mono",monospace;
+font-size:21px;
+font-weight:800;
+color:var(--green);
+letter-spacing:2px;
+}
+
+.brand span {color:white;}
+
+.nav-links {
+display:flex;
+gap:22px;
+flex-wrap:wrap;
+}
+
+.nav-links a {
+color:var(--muted);
+font:12px "JetBrains Mono",monospace;
+transition:.2s;
+}
+
+.nav-links a:hover {color:var(--green);}
+
+.status {
+display:flex;
+align-items:center;
+gap:8px;
+color:var(--green);
+font:11px "JetBrains Mono",monospace;
+}
+
+.dot {
+width:8px;
+height:8px;
+border-radius:50%;
+background:var(--green);
+box-shadow:0 0 12px var(--green);
+animation:pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+50% {opacity:.3;transform:scale(.7);}
+}
+
+.hero {
+padding:75px 0 55px;
+text-align:center;
+}
+
+.eyebrow {
+color:var(--green);
+font:12px "JetBrains Mono",monospace;
+letter-spacing:4px;
+}
+
+.hero h1 {
+font:800 clamp(45px,9vw,100px) "JetBrains Mono",monospace;
+color:var(--green);
+text-shadow:0 0 35px #39ff8844;
+margin:20px 0;
+letter-spacing:5px;
+}
+
+.hero p {
+color:var(--muted);
+line-height:1.8;
+max-width:650px;
+margin:auto;
+font-size:14px;
+}
+
+.typing {
+color:var(--green);
+font:14px "JetBrains Mono",monospace;
+min-height:25px;
+margin:22px 0;
+}
+
+.actions {
+display:flex;
+justify-content:center;
+gap:12px;
+flex-wrap:wrap;
+margin-top:28px;
+}
+
+.btn {
+padding:13px 20px;
+border:1px solid var(--green);
+color:var(--green);
+font:12px "JetBrains Mono",monospace;
+transition:.25s;
+}
+
+.btn.primary {
+background:var(--green);
+color:#031008;
+font-weight:800;
+}
+
+.btn:hover {
+box-shadow:0 0 25px #39ff8844;
+transform:translateY(-3px);
+}
+
+.section-title {
+display:flex;
+align-items:center;
+gap:12px;
+margin:35px 0 18px;
+font:600 14px "JetBrains Mono",monospace;
+color:var(--green);
+letter-spacing:1px;
+}
+
+.section-title::after {
+content:"";
+height:1px;
+background:var(--border);
+flex:1;
+}
+
+.grid {
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:15px;
+}
+
+.card {
+background:linear-gradient(145deg,var(--panel2),var(--panel));
+border:1px solid var(--border);
+padding:20px;
+border-radius:5px;
+transition:.25s;
+min-width:0;
+}
+
+.card:hover {
+border-color:var(--green);
+transform:translateY(-3px);
+}
+
+.card-label {
+color:var(--muted);
+font:11px "JetBrains Mono",monospace;
+letter-spacing:1px;
+}
+
+.metric {
+font:700 25px "JetBrains Mono",monospace;
+color:var(--green);
+margin:15px 0 7px;
+overflow-wrap:anywhere;
+}
+
+.card-note {
+color:var(--muted);
+font-size:11px;
+}
+
+.layout {
+display:grid;
+grid-template-columns:1.5fr 1fr;
+gap:15px;
+}
+
+.panel {
+background:var(--panel);
+border:1px solid var(--border);
+border-radius:5px;
+padding:22px;
+min-width:0;
+}
+
+.panel h3 {
+font:600 12px "JetBrains Mono",monospace;
+color:var(--green);
+margin-bottom:20px;
+}
+
+.chart-wrap {
+height:260px;
+position:relative;
+}
+
+.skills {
+display:grid;
+gap:20px;
+}
+
+.skill-top {
+display:flex;
+justify-content:space-between;
+color:var(--text);
+font:12px "JetBrains Mono",monospace;
+margin-bottom:9px;
+}
+
+.bar {
+height:7px;
+background:#17251b;
+overflow:hidden;
+border-radius:10px;
+}
+
+.bar span {
+display:block;
+height:100%;
+width:0;
+background:linear-gradient(90deg,#087b3c,var(--green));
+box-shadow:0 0 12px #39ff8866;
+transition:width 1.5s ease;
+}
+
+.projects {
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:15px;
+}
+
+.project {
+background:var(--panel);
+border:1px solid var(--border);
+padding:22px;
+border-radius:5px;
+transition:.2s;
+}
+
+.project:hover {border-color:var(--green);}
+
+.project h3 {
+color:var(--green);
+font:700 15px "JetBrains Mono",monospace;
+margin-bottom:12px;
+}
+
+.project p {
+color:var(--muted);
+font-size:12px;
+line-height:1.8;
+}
+
+.tag {
+display:inline-block;
+border:1px solid var(--border);
+color:var(--green);
+font:10px "JetBrains Mono",monospace;
+padding:5px 8px;
+margin-top:15px;
+}
+
+.project-status {
+float:right;
+color:#e9d76a;
+font:10px "JetBrains Mono",monospace;
+}
+
+.terminal {
+background:#030704;
+border:1px solid var(--border);
+padding:22px;
+border-radius:5px;
+font:12px/2 "JetBrains Mono",monospace;
+overflow-x:auto;
+}
+
+.terminal-head {
+color:var(--muted);
+border-bottom:1px solid var(--border);
+padding-bottom:12px;
+margin-bottom:12px;
+}
+
+.prompt {color:var(--green);}
+.output {color:#9db9a5;}
+
+.cursor {
+display:inline-block;
+width:8px;
+height:15px;
+background:var(--green);
+vertical-align:middle;
+animation:pulse 1s infinite;
+}
+
+.focus-list {
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:12px;
+}
+
+.focus-item {
+padding:15px;
+background:var(--panel);
+border:1px solid var(--border);
+color:var(--text);
+font:11px "JetBrains Mono",monospace;
+}
+
+.focus-item span {
+color:var(--green);
+margin-right:8px;
+}
+
+footer {
+margin-top:65px;
+border-top:1px solid var(--border);
+padding:35px 0;
+text-align:center;
+color:var(--muted);
+font:11px "JetBrains Mono",monospace;
+line-height:2;
+}
+
+footer strong {color:var(--green);}
+
+@media(max-width:900px) {
+.grid {grid-template-columns:repeat(2,1fr);}
+.layout {grid-template-columns:1fr;}
+}
+
+@media(max-width:600px) {
+.nav {
+padding:15px 0;
+align-items:flex-start;
+flex-direction:column;
+}
+.nav-links {gap:12px;}
+.hero {padding:55px 0 35px;}
+.projects {grid-template-columns:1fr;}
+.focus-list {grid-template-columns:1fr;}
+.grid {gap:9px;}
+.card {padding:13px;}
+.metric {font-size:19px;}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container nav">
+
+<a class="brand" href="#">2491<span>ZERO</span></a>
+
+<nav class="nav-links">
+<a href="#overview">OVERVIEW</a>
+<a href="#analytics">ANALYTICS</a>
+<a href="#projects">PROJECTS</a>
+<a href="#skills">SKILLS</a>
+</nav>
+
+<div class="status">
+<span class="dot"></span>
+SYSTEM ONLINE
+</div>
+
+</div>
+</header>
+
+<main class="container">
+
+<section class="hero">
+
+<div class="eyebrow">CYBER OPERATIONS CENTER // 2491ZERO</div>
+
+<h1>2491ZERO</h1>
+
+<div class="typing" id="typing"></div>
+
+<p>
+Cybersecurity engineering, network defense, web application security,
+Linux security and Python-based security research.
+Building knowledge. Engineering defense.
+</p>
+
+<div class="actions">
+<a class="btn primary" href="https://github.com/2491zero?tab=repositories">
+EXPLORE REPOSITORIES
+</a>
+
+<a class="btn" href="https://github.com/2491zero">
+GITHUB PROFILE
+</a>
+</div>
+
+</section>
+
+<section id="overview">
+
+<div class="section-title">01 // SYSTEM OVERVIEW</div>
+
+<div class="grid">
+
+<div class="card">
+<div class="card-label">IDENTITY</div>
+<div class="metric">2491ZERO</div>
+<div class="card-note">Cybersecurity Engineer</div>
+</div>
+
+<div class="card">
+<div class="card-label">PRIMARY DOMAIN</div>
+<div class="metric">CYBER</div>
+<div class="card-note">Information Security</div>
+</div>
+
+<div class="card">
+<div class="card-label">CORE LANGUAGE</div>
+<div class="metric">PYTHON</div>
+<div class="card-note">Security Engineering</div>
+</div>
+
+<div class="card">
+<div class="card-label">ENVIRONMENT</div>
+<div class="metric">LINUX</div>
+<div class="card-note">Systems & Infrastructure</div>
+</div>
+
+</div>
+</section>
+
+<section id="analytics">
+
+<div class="section-title">02 // ANALYTICS CENTER</div>
+
+<div class="layout">
+
+<div class="panel">
+<h3>SECURITY DOMAIN DISTRIBUTION</h3>
+<div class="chart-wrap">
+<canvas id="domainChart"></canvas>
+</div>
+</div>
+
+<div class="panel">
+<h3>TECHNICAL FOCUS</h3>
+
+<div class="skills">
+
+<div>
+<div class="skill-top">
+<span>Network Security</span>
+<span>FOCUS</span>
+</div>
+<div class="bar"><span data-width="90%"></span></div>
+</div>
+
+<div>
+<div class="skill-top">
+<span>Web Application Security</span>
+<span>FOCUS</span>
+</div>
+<div class="bar"><span data-width="85%"></span></div>
+</div>
+
+<div>
+<div class="skill-top">
+<span>Linux Security</span>
+<span>FOCUS</span>
+</div>
+<div class="bar"><span data-width="88%"></span></div>
+</div>
+
+<div>
+<div class="skill-top">
+<span>Python</span>
+<span>FOCUS</span>
+</div>
+<div class="bar"><span data-width="90%"></span></div>
+</div>
+
+<div>
+<div class="skill-top">
+<span>Malware Analysis</span>
+<span>FOCUS</span>
+</div>
+<div class="bar"><span data-width="75%"></span></div>
+</div>
+
+</div>
+</div>
+
+</div>
+</section>
+
+<section id="projects">
+
+<div class="section-title">03 // PROJECT INTELLIGENCE</div>
+
+<div class="projects">
+
+<article class="project">
+<span class="project-status">PLANNED</span>
+<h3>SENTINELX SIEM</h3>
+<p>Security monitoring, log analysis, event classification and defensive intelligence dashboards.</p>
+<span class="tag">BLUE TEAM</span>
+</article>
+
+<article class="project">
+<span class="project-status">PLANNED</span>
+<h3>NETMAPPER</h3>
+<p>Authorized network asset inventory, topology visualization and network intelligence.</p>
+<span class="tag">NETWORK SECURITY</span>
+</article>
+
+<article class="project">
+<span class="project-status">PLANNED</span>
+<h3>MALWARELAB</h3>
+<p>Isolated static malware research, metadata inspection and file intelligence.</p>
+<span class="tag">MALWARE ANALYSIS</span>
+</article>
+
+<article class="project">
+<span class="project-status">PLANNED</span>
+<h3>CODESHIELD</h3>
+<p>Source code security analysis, secure coding checks and findings classification.</p>
+<span class="tag">APPSEC</span>
+</article>
+
+<article class="project">
+<span class="project-status">PLANNED</span>
+<h3>THREATLENS</h3>
+<p>IOC processing, threat intelligence enrichment and indicator visualization.</p>
+<span class="tag">THREAT INTELLIGENCE</span>
+</article>
+
+<article class="project">
+<span class="project-status">PROFILE</span>
+<h3>GITHUB ECOSYSTEM</h3>
+<p>Explore repositories, technical experiments and ongoing engineering work.</p>
+<a class="tag" href="https://github.com/2491zero?tab=repositories">
+VIEW REPOSITORIES ↗
+</a>
+</article>
+
+</div>
+</section>
+
+<section id="skills">
+
+<div class="section-title">04 // TECHNICAL ARSENAL</div>
+
+<div class="panel">
+
+<div class="focus-list">
+
+<div class="focus-item"><span>[01]</span> NETWORK SECURITY</div>
+<div class="focus-item"><span>[02]</span> WEB APPLICATION SECURITY</div>
+<div class="focus-item"><span>[03]</span> LINUX & SYSTEM SECURITY</div>
+<div class="focus-item"><span>[04]</span> PYTHON ENGINEERING</div>
+<div class="focus-item"><span>[05]</span> MALWARE ANALYSIS</div>
+<div class="focus-item"><span>[06]</span> THREAT INTELLIGENCE</div>
+<div class="focus-item"><span>[07]</span> WIRESHARK & NETWORK ANALYSIS</div>
+<div class="focus-item"><span>[08]</span> DOCKER & GIT</div>
+
+</div>
+</div>
+</section>
+
+<section>
+
+<div class="section-title">05 // TERMINAL ACCESS</div>
+
+<div class="terminal">
+
+<div class="terminal-head">root@2491zero:~ — security-terminal</div>
+
+<div><span class="prompt">root@2491zero:~$</span> whoami</div>
+<div class="output">2491zero — Cybersecurity Engineer</div>
+
+<div><span class="prompt">root@2491zero:~$</span> cat mission.txt</div>
+
+<div class="output">
+[OK] Understand complex systems<br>
+[OK] Research security weaknesses<br>
+[OK] Engineer defensive technologies<br>
+[OK] Improve security visibility<br>
+[OK] Learn continuously
+</div>
+
+<div>
+<span class="prompt">root@2491zero:~$</span>
+<span class="cursor"></span>
+</div>
+
+</div>
+</section>
+
+<section>
+
+<div class="section-title">06 // RESPONSIBLE SECURITY</div>
+
+<div class="panel">
+<p style="color:var(--muted);font-size:13px;line-height:2">
+All security research and assessments are intended for authorized systems
+and controlled environments. Responsible disclosure, privacy and defensive
+engineering are fundamental principles.
+</p>
+</div>
+
+</section>
+
+</main>
+
+<footer>
+
+<strong>2491ZERO</strong><br>
+ENGINEER THE DEFENSE.<br>
+ANALYZE // RESEARCH // BUILD // DEFEND<br><br>
+
+<a href="https://github.com/2491zero">GITHUB</a>
+&nbsp; | &nbsp;
+<a href="https://github.com/2491zero?tab=repositories">REPOSITORIES</a>
+
+<br><br>
+<span id="clock"></span>
+
+</footer>
+
+<script>
+const phrases = [
+"CYBERSECURITY ENGINEER",
+"NETWORK SECURITY",
+"WEB APPLICATION SECURITY",
+"PYTHON SECURITY ENGINEERING",
+"LINUX & MALWARE ANALYSIS",
+"ENGINEER THE DEFENSE"
+];
+
+let phraseIndex = 0;
+let charIndex = 0;
+let deleting = false;
+
+function typeEffect() {
+const element = document.getElementById("typing");
+const phrase = phrases[phraseIndex];
+
+element.textContent = phrase.substring(0,charIndex);
+
+if (!deleting && charIndex < phrase.length) {
+charIndex++;
+setTimeout(typeEffect,75);
+} else if (!deleting) {
+deleting = true;
+setTimeout(typeEffect,1500);
+} else if (charIndex > 0) {
+charIndex--;
+setTimeout(typeEffect,35);
+} else {
+deleting = false;
+phraseIndex = (phraseIndex + 1) % phrases.length;
+setTimeout(typeEffect,400);
+}
+}
+
+typeEffect();
+
+const chartContext = document.getElementById("domainChart");
+
+new Chart(chartContext, {
+type:"doughnut",
+data:{
+labels:[
+"Network Security",
+"Web Security",
+"Linux Security",
+"Python",
+"Malware Analysis",
+"Threat Intelligence"
+],
+datasets:[{
+data:[25,22,18,16,11,8],
+backgroundColor:[
+"#39ff88",
+"#13c968",
+"#087b3c",
+"#a4ffc4",
+"#1d7045",
+"#31513b"
+],
+borderColor:"#0a120e",
+borderWidth:4,
+hoverOffset:12
+}]
+},
+options:{
+responsive:true,
+maintainAspectRatio:false,
+plugins:{
+legend:{
+position:"bottom",
+labels:{
+color:"#9db9a5",
+padding:15,
+font:{size:10}
+}
+}
+},
+animation:{
+animateRotate:true,
+duration:1800
+}
+}
+});
+
+const observer = new IntersectionObserver(entries => {
+entries.forEach(entry => {
+if(entry.isIntersecting) {
+entry.target.style.width = entry.target.dataset.width;
+observer.unobserve(entry.target);
+}
+});
+},{threshold:0.3});
+
+document.querySelectorAll(".bar span").forEach(bar => {
+observer.observe(bar);
+});
+
+function updateClock() {
+document.getElementById("clock").textContent =
+"LOCAL SYSTEM TIME: " + new Date().toLocaleString();
+}
+
+updateClock();
+setInterval(updateClock,1000);
+</script>
+
+</body>
+</html>
