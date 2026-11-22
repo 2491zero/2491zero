@@ -1,21 +1,31 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020804,50:064E25,100:36E878&height=200&section=header&text=2491ZERO&fontSize=65&fontColor=FFFFFF&fontAlignY=38&desc=CYBERSECURITY%20ENGINEER&descAlignY=60&descSize=18&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020804,50:064E25,100:36E878&height=220&section=header&text=2491ZERO&fontSize=75&fontColor=FFFFFF&fontAlignY=36&desc=CYBERSECURITY%20ENGINEER&descAlignY=57&descSize=20&animation=fadeIn" width="100%"/>
 
 <a href="https://github.com/2491zero">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=3000&pause=1000&color=36E878&center=true&vCenter=true&width=650&lines=NETWORK+SECURITY;WEB+APPLICATION+SECURITY;MALWARE+ANALYSIS;PYTHON+%7C+LINUX+%7C+SECURITY+RESEARCH" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=900&color=36E878&center=true&vCenter=true&width=750&lines=NETWORK+SECURITY;WEB+APPLICATION+SECURITY;MALWARE+ANALYSIS;PYTHON+%7C+LINUX+%7C+SECURITY+RESEARCH;BUILDING+THE+FUTURE+OF+DEFENSIVE+SECURITY" />
 </a>
 
 <br/>
 
 [![GitHub](https://img.shields.io/badge/GitHub-2491zero-36E878?style=for-the-badge&logo=github&logoColor=white)](https://github.com/2491zero)
-![Profile](https://img.shields.io/badge/PROFILE-CYBERSECURITY-0B2615?style=for-the-badge)
-![Focus](https://img.shields.io/badge/FOCUS-SECURITY%20RESEARCH-36E878?style=for-the-badge)
+![Cybersecurity](https://img.shields.io/badge/PROFILE-CYBERSECURITY-0B2615?style=for-the-badge)
+![Research](https://img.shields.io/badge/FOCUS-SECURITY_RESEARCH-36E878?style=for-the-badge)
 
 </div>
 
 ---
+
+<div align="center">
+
+# `SYSTEM IDENTITY`
+
+**SECURE THE DIGITAL WORLD.**
+
+`ANALYZE // UNDERSTAND // BUILD // DEFEND`
+
+</div>
 
 ## `01 // WHOAMI`
 
@@ -41,6 +51,14 @@ I enjoy exploring how systems work, understanding
 security weaknesses, and building tools that
 support defensive security research.
 
+**Primary interests:**
+- Network Security
+- Web Application Security
+- Linux & System Security
+- Python Security Engineering
+- Malware Analysis
+- Threat Intelligence
+
 ---
 
 ## `02 // TECHNICAL ARSENAL`
@@ -65,7 +83,7 @@ support defensive security research.
 
 ![Wireshark](https://img.shields.io/badge/Wireshark-0D2818?style=flat-square&logo=wireshark&logoColor=36E878)
 ![Nmap](https://img.shields.io/badge/Nmap-0D2818?style=flat-square&logoColor=36E878)
-![Python](https://img.shields.io/badge/Scapy-0D2818?style=flat-square)
+![Scapy](https://img.shields.io/badge/Scapy-0D2818?style=flat-square)
 ![Docker](https://img.shields.io/badge/Docker-0D2818?style=flat-square&logo=docker&logoColor=36E878)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0D2818?style=flat-square&logo=githubactions&logoColor=36E878)
 
@@ -77,84 +95,198 @@ support defensive security research.
 > These are planned projects, not completed releases.
 
 | Project | Domain | Status |
-|---|---|---|
+|:---|:---|:---:|
 | SentinelX SIEM | Blue Team / SIEM | Planned |
 | NetMapper | Network Security | Planned |
 | MalwareLab | Malware Analysis | Planned |
 | CodeShield | Application Security | Planned |
 | ThreatLens | Threat Intelligence | Planned |
 
-### Project Intelligence
+### PROJECT INTELLIGENCE
 
-**01 — SentinelX SIEM**
+<details>
+<summary><b>01 — SENTINELX SIEM</b> | Security Monitoring</summary>
 
-Security monitoring and log analysis platform.
+A planned security monitoring and log analysis platform.
 
-**02 — NetMapper**
+- Log analysis
+- Event monitoring
+- Alert management
+- Security dashboards
 
-Network asset inventory and topology visualization.
+</details>
 
-**03 — MalwareLab**
+<details>
+<summary><b>02 — NETMAPPER</b> | Network Intelligence</summary>
 
-Isolated malware analysis and file intelligence lab.
+A planned network asset inventory and topology visualization platform.
 
-**04 — CodeShield**
+- Asset inventory
+- Network topology visualization
+- IP address analysis
+- Network reporting
 
-Static source code security analysis.
+</details>
 
-**05 — ThreatLens**
+<details>
+<summary><b>03 — MALWARELAB</b> | Malware Analysis</summary>
 
-IOC analysis and threat intelligence platform.
+A planned isolated malware analysis and file intelligence laboratory.
+
+- Static file analysis
+- File metadata inspection
+- Hash identification
+- Safe isolated research
+
+</details>
+
+<details>
+<summary><b>04 — CODESHIELD</b> | Application Security</summary>
+
+A planned source code security analysis platform.
+
+- Static code analysis
+- Security issue detection
+- Code quality checks
+- Security reporting
+
+</details>
+
+<details>
+<summary><b>05 — THREATLENS</b> | Threat Intelligence</summary>
+
+A planned threat intelligence and IOC analysis platform.
+
+- IOC enrichment
+- Threat data visualization
+- Indicator analysis
+- Intelligence reporting
+
+</details>
 
 ---
 
-## `04 // GITHUB ANALYTICS`
+## `04 // GITHUB INTELLIGENCE CENTER`
 
 <div align="center">
 
-<img width="100%" src="./assets/cards.dark.svg" alt="GitHub analytics cards"/>
+<img src="./assets/overview.dark.svg" width="100%" alt="GitHub Overview"/>
+
+<br/>
+
+<img src="./assets/cards.dark.svg" width="100%" alt="GitHub Analytics Cards"/>
 
 </div>
 
-### Contribution Activity
+### `CONTRIBUTION ANALYTICS`
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=2491zero&bg_color=050C08&color=36E878&line=36E878&point=FFFFFF&area=true&hide_border=true" width="100%" alt="Contribution activity graph"/>
+<img src="./assets/contributions.dark.svg" width="100%" alt="Contribution Statistics"/>
 
 </div>
 
-### Contribution Snake
+### `PROGRAMMING LANGUAGE ANALYTICS`
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/2491zero/2491zero/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake animation"/>
+<img src="./assets/languages.dark.svg" width="100%" alt="Programming Languages"/>
+
+</div>
+
+### `REPOSITORY INTELLIGENCE`
+
+<div align="center">
+
+<img src="./assets/repositories.dark.svg" width="100%" alt="Repository Statistics"/>
+
+</div>
+
+### `CODING RHYTHM`
+
+<div align="center">
+
+<img src="./assets/rhythm.dark.svg" width="100%" alt="Coding Activity Rhythm"/>
 
 </div>
 
 ---
 
-## `05 // CURRENT FOCUS`
+## `05 // CONTRIBUTION ACTIVITY`
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=2491zero&bg_color=050C08&color=36E878&line=36E878&point=FFFFFF&area=true&hide_border=true" width="100%" alt="Contribution Activity Graph"/>
+
+</div>
+
+### `CONTRIBUTION SNAKE`
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/2491zero/2491zero/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub Contribution Snake"/>
+
+</div>
+
+---
+
+## `06 // SECURITY ROADMAP`
 
 ```text
-[01] Network Security
-[02] Web Application Security
-[03] Linux & System Security
-[04] Python Security Engineering
-[05] Malware Analysis
-[06] Threat Intelligence
+                    2491ZERO
+                       |
+          +------------+------------+
+          |            |            |
+       NETWORK       WEB APP      LINUX
+       SECURITY      SECURITY    SECURITY
+          |            |            |
+          +------------+------------+
+                       |
+                 PYTHON SECURITY
+                       |
+                MALWARE ANALYSIS
+                       |
+                THREAT INTELLIGENCE
+                       |
+                 DEFENSIVE TOOLS
 ```
+
+### CURRENT FOCUS
+
+| Area | Focus |
+|---|---|
+| Network Security | Network analysis |
+| Web Security | Application security |
+| Linux | System security |
+| Python | Security automation |
+| Malware Analysis | Static analysis |
+| Threat Intelligence | IOC research |
 
 ---
 
-## `06 // SECURITY PHILOSOPHY`
+## `07 // SECURITY PHILOSOPHY`
 
 > "Security is not a product. It's a continuous process."
 
 Understand the system.
+
 Identify the risks.
+
 Build the defense.
+
 Keep learning.
+
+---
+
+## `08 // CONNECT WITH ME`
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-2491zero-36E878?style=for-the-badge&logo=github)](https://github.com/2491zero)
+
+[![Repositories](https://img.shields.io/badge/EXPLORE-MY_REPOSITORIES-102D1A?style=for-the-badge&logo=github)](https://github.com/2491zero?tab=repositories)
+
+</div>
 
 ---
 
@@ -164,6 +296,6 @@ Keep learning.
 
 **SECURE // ANALYZE // RESEARCH // DEFEND**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:36E878,50:064E25,100:020804&height=110&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:36E878,50:064E25,100:020804&height=130&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
