@@ -3,7 +3,7 @@
 
 # Ahmed Albrt
 
-### CYBERSECURITY ENGINEERING PORTFOLIO
+### CYBERSECURITY ENGINEERING
 
 **ENGINEER THE DEFENSE.**
 
@@ -15,9 +15,9 @@
 
 ---
 
-## SYSTEM PROFILE
+##PROFILE
 
-Cybersecurity engineering portfolio focused on:
+Cybersecurity engineering focused on:
 
 - Network Security
 - Web Application Security
@@ -63,7 +63,7 @@ All security assessments and experiments are intended for authorized systems and
 
 <div align="center">
 
-**2491ZERO**
+**Ahmed Albrt**
 
 `ANALYZE // RESEARCH // BUILD // DEFEND`
 
