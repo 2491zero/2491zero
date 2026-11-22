@@ -1,185 +1,245 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:020503,50:073B20,100:20D969&height=220&section=header&text=2491ZERO&fontSize=76&fontColor=39FF88&fontAlignY=42&desc=CYBERSECURITY%20ENGINEERING&descAlignY=64&descSize=18&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020503,45:073B20,100:20D969&height=230&section=header&text=2491ZERO&fontSize=78&fontColor=39FF88&fontAlignY=38&desc=CYBERSECURITY%20ENGINEERING&descAlignY=60&descSize=19&animation=fadeIn" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2800&pause=900&color=39FF88&center=true&vCenter=true&width=800&lines=root%402491zero%3A~%24+whoami;CYBERSECURITY+ENGINEER;NETWORK+%7C+WEB+%7C+LINUX+SECURITY;PYTHON+SECURITY+ENGINEERING;ANALYZE+%7C+RESEARCH+%7C+DEFEND" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2800&pause=900&color=39FF88&center=true&vCenter=true&width=850&lines=root%402491zero%3A~%24+whoami;CYBERSECURITY+ENGINEER;NETWORK+SECURITY+%7C+WEB+SECURITY;PYTHON+%7C+LINUX+%7C+MALWARE+ANALYSIS;ENGINEER+THE+DEFENSE" />
 
 <br/>
 
 <a href="https://github.com/2491zero">
 <img src="https://img.shields.io/badge/GITHUB-2491ZERO-102719?style=for-the-badge&logo=github&logoColor=39FF88"/>
 </a>
-<img src="https://img.shields.io/badge/SPECIALIZATION-CYBERSECURITY-102719?style=for-the-badge&color=102719"/>
-<img src="https://img.shields.io/badge/MODE-SECURITY_ENGINEERING-102719?style=for-the-badge"/>
+
+<a href="https://2491zero.github.io/2491zero/">
+<img src="https://img.shields.io/badge/OPEN-CYBER_OPERATIONS_CENTER-39FF88?style=for-the-badge&logo=linux&logoColor=black"/>
+</a>
+
+<a href="https://github.com/2491zero?tab=repositories">
+<img src="https://img.shields.io/badge/EXPLORE-REPOSITORIES-102719?style=for-the-badge&logo=github"/>
+</a>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/IDENTITY-CYBERSECURITY_ENGINEER-0B2114?style=flat-square"/>
+<img src="https://img.shields.io/badge/FOCUS-SECURITY_RESEARCH-0B2114?style=flat-square"/>
+<img src="https://img.shields.io/badge/MODE-DEFENSIVE_ENGINEERING-0B2114?style=flat-square"/>
 
 </div>
 
 ---
 
-# `root@2491zero:~# whoami`
+# `00 // SYSTEM ACCESS`
 
 ```text
 +----------------------------------------------------------+
-|                  SYSTEM IDENTITY                         |
+|                 2491ZERO SECURITY SYSTEM                 |
 +----------------------------------------------------------+
-| USER       : 2491ZERO                                    |
-| ROLE       : CYBERSECURITY ENGINEER                      |
-| DOMAIN     : INFORMATION SECURITY                        |
-| ENVIRONMENT: LINUX / NETWORK / APPLICATION SECURITY      |
-| LANGUAGE   : PYTHON / BASH                               |
-| MISSION    : ENGINEER THE DEFENSE                         |
+|                                                          |
+|  USER       : 2491ZERO                                    |
+|  ROLE       : CYBERSECURITY ENGINEER                      |
+|  SPECIALTY  : INFORMATION SECURITY                       |
+|  ENVIRONMENT: LINUX / NETWORK / WEB                      |
+|  LANGUAGE   : PYTHON / BASH                              |
+|  OBJECTIVE  : ENGINEER THE DEFENSE                        |
+|                                                          |
 +----------------------------------------------------------+
 ```
-
-I focus on cybersecurity engineering, network security,
-web application security, Linux environments, Python
-development, and defensive security research.
-
-My interests include analyzing system behavior,
-understanding vulnerabilities, improving security
-posture, and developing tools for defensive operations.
-
-```bash
-$ cat mission.txt
-
-[+] Understand complex systems
-[+] Analyze security risks
-[+] Engineer defensive technologies
-[+] Research security weaknesses
-[+] Build practical security solutions
-```
-
----
-
-# `01 // SECURITY OPERATIONS`
 
 <div align="center">
 
-| SECURITY DOMAIN | AREA OF FOCUS |
-|:---|:---|
-| NETWORK SECURITY | Traffic & Protocol Analysis |
-| WEB SECURITY | Application Security |
-| LINUX SECURITY | System Hardening |
-| PYTHON ENGINEERING | Security Automation |
-| MALWARE ANALYSIS | Static File Analysis |
-| THREAT INTELLIGENCE | IOC Investigation |
+<a href="https://2491zero.github.io/2491zero/">
+
+<img src="https://img.shields.io/badge/LAUNCH-INTERACTIVE_SECURITY_DASHBOARD-39FF88?style=for-the-badge&logo=linux&logoColor=black"/>
+
+</a>
+
+**ENTER THE CYBER OPERATIONS CENTER**
 
 </div>
 
 ---
 
-# `02 // TECHNICAL ARSENAL`
+# `01 // WHOAMI`
 
-### [01] PROGRAMMING & AUTOMATION
+I'm focused on cybersecurity engineering, network security, web application security, Linux environments, Python development, and defensive security research.
 
-<div align="left">
+My interests include understanding complex systems, analyzing security weaknesses, researching threats, and engineering tools that improve security visibility and defense.
 
-<img src="https://skillicons.dev/icons?i=python,bash,git&theme=dark" />
+```bash
+root@2491zero:~$ cat mission.txt
+
+[+] Understand complex systems
+[+] Analyze security vulnerabilities
+[+] Strengthen network defenses
+[+] Engineer security automation
+[+] Research malware behavior
+[+] Develop defensive technologies
+```
+
+### CORE SPECIALIZATIONS
+
+| DOMAIN | FOCUS |
+|:---|:---|
+| Network Security | Network analysis & defense |
+| Web Application Security | Application security |
+| Linux Security | System hardening |
+| Python Engineering | Security automation |
+| Malware Analysis | Static file analysis |
+| Threat Intelligence | IOC investigation |
+
+---
+
+# `02 // SECURITY OPERATIONS CENTER`
+
+<div align="center">
+
+<a href="https://2491zero.github.io/2491zero/">
+
+<img src="https://img.shields.io/badge/ACCESS-DASHBOARD-39FF88?style=for-the-badge&logo=github"/>
+
+</a>
+
+<br/><br/>
+
+<img src="./assets/overview.dark.svg" width="100%" alt="2491ZERO GitHub Intelligence"/>
 
 </div>
 
-### [02] SYSTEMS & INFRASTRUCTURE
+---
 
-<div align="left">
+# `03 // TECHNICAL ARSENAL`
 
-<img src="https://skillicons.dev/icons?i=linux,docker,githubactions,vscode&theme=dark" />
+### PROGRAMMING & DEVELOPMENT
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,bash,git,vscode&theme=dark"/>
 
 </div>
 
-### [03] SECURITY & ANALYSIS
+### OPERATING SYSTEMS & INFRASTRUCTURE
 
-<div align="left">
+<div align="center">
 
-<img src="https://img.shields.io/badge/Wireshark-102719?style=for-the-badge&logo=wireshark&logoColor=39FF88"/>
-<img src="https://img.shields.io/badge/Nmap-102719?style=for-the-badge&logoColor=39FF88"/>
-<img src="https://img.shields.io/badge/Scapy-102719?style=for-the-badge"/>
+<img src="https://skillicons.dev/icons?i=linux,docker,githubactions&theme=dark"/>
+
+</div>
+
+### SECURITY TECHNOLOGIES
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/WIRESHARK-102719?style=for-the-badge&logo=wireshark&logoColor=39FF88"/>
+<img src="https://img.shields.io/badge/NMAP-102719?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/SCAPY-102719?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/OWASP-102719?style=for-the-badge&logo=owasp&logoColor=39FF88"/>
 
 </div>
 
 ---
 
-# `03 // PROJECT INTELLIGENCE`
+# `04 // PROJECT INTELLIGENCE`
 
 ```bash
-$ ls -la ./security-projects/
+root@2491zero:~$ ls ./security-projects/
 
-drwxr-xr-x  SENTINELX-SIEM
-drwxr-xr-x  NETMAPPER
-drwxr-xr-x  MALWARELAB
-drwxr-xr-x  CODESHIELD
-drwxr-xr-x  THREATLENS
+SentinelX-SIEM/
+NetMapper/
+MalwareLab/
+CodeShield/
+ThreatLens/
 ```
 
-> Engineering roadmap. These projects are planned, not completed releases.
+> Project development roadmap. Projects marked Planned are not yet released.
 
-<details>
-<summary><b>[01] SENTINELX SIEM</b> — Security Monitoring Platform</summary>
+### 01 — SENTINELX SIEM
 
-**MISSION:** Security event monitoring and log intelligence.
-
-Planned modules:
+**Security Monitoring & Event Intelligence**
 
 - Centralized log analysis
-- Event classification
+- Security event classification
 - Alert management
-- Security dashboards
-- Incident investigation support
+- Monitoring dashboards
+- Incident investigation
+
+<details>
+<summary>View SentinelX architecture objectives</summary>
+
+- Log ingestion
+- Event processing
+- Detection rules
+- Alert correlation
+- Security reporting
 
 </details>
 
-<details>
-<summary><b>[02] NETMAPPER</b> — Network Intelligence</summary>
+### 02 — NETMAPPER
 
-**MISSION:** Network asset inventory and topology visualization.
+**Network Intelligence & Asset Visualization**
 
-Planned modules:
-
-- Authorized asset discovery
+- Authorized network asset discovery
 - Network topology visualization
 - IP address analysis
-- Asset classification
+- Asset inventory
 - Network reporting
+
+<details>
+<summary>View NetMapper architecture objectives</summary>
+
+- Network inventory
+- Asset classification
+- Topology visualization
+- Network documentation
+- Reporting interface
 
 </details>
 
-<details>
-<summary><b>[03] MALWARELAB</b> — Malware Research</summary>
+### 03 — MALWARELAB
 
-**MISSION:** Isolated malware file analysis and defensive research.
+**Isolated Malware Research Laboratory**
 
-Planned modules:
-
-- Static file inspection
+- Static file analysis
 - Metadata extraction
 - Cryptographic hashing
 - Indicator identification
-- Isolated analysis workflows
+- Safe isolated research
+
+<details>
+<summary>View MalwareLab architecture objectives</summary>
+
+- File inspection
+- Hash analysis
+- Metadata extraction
+- Static indicators
+- Analysis reports
 
 </details>
 
-<details>
-<summary><b>[04] CODESHIELD</b> — Application Security</summary>
+### 04 — CODESHIELD
 
-**MISSION:** Source code security analysis.
+**Application Security Analysis**
 
-Planned modules:
-
-- Static code analysis
+- Static source code analysis
 - Security pattern detection
 - Secure coding checks
 - Findings classification
 - Security reporting
 
+<details>
+<summary>View CodeShield architecture objectives</summary>
+
+- Source inspection
+- Rule-based analysis
+- Findings management
+- Severity classification
+- Reports
+
 </details>
 
-<details>
-<summary><b>[05] THREATLENS</b> — Threat Intelligence</summary>
+### 05 — THREATLENS
 
-**MISSION:** IOC investigation and threat intelligence.
-
-Planned modules:
+**Threat Intelligence & IOC Analysis**
 
 - IOC normalization
 - Indicator enrichment
@@ -187,39 +247,38 @@ Planned modules:
 - Intelligence visualization
 - Structured reporting
 
+<details>
+<summary>View ThreatLens architecture objectives</summary>
+
+- IOC processing
+- Threat intelligence enrichment
+- Indicator classification
+- Data visualization
+- Intelligence reports
+
 </details>
 
 ---
 
-# `04 // GITHUB ANALYTICS CENTER`
-
-```text
-$ ./analytics --user 2491zero
-
-[+] Loading GitHub statistics...
-[+] Loading contribution data...
-[+] Loading language distribution...
-[+] Loading repository intelligence...
-[+] Dashboard ready.
-```
+# `05 // GITHUB ANALYTICS`
 
 <div align="center">
 
-### SYSTEM OVERVIEW
+### PROFILE OVERVIEW
 
-<img src="./assets/overview.dark.svg" width="100%" alt="GitHub Overview"/>
+<img src="./assets/overview.dark.svg" width="100%" alt="Profile Overview"/>
 
-### ANALYTICS DASHBOARD
+### ANALYTICS CARDS
 
-<img src="./assets/cards.dark.svg" width="100%" alt="GitHub Analytics"/>
+<img src="./assets/cards.dark.svg" width="100%" alt="Analytics Cards"/>
 
 ### CONTRIBUTION INTELLIGENCE
 
 <img src="./assets/contributions.dark.svg" width="100%" alt="Contribution Analytics"/>
 
-### LANGUAGE DISTRIBUTION
+### PROGRAMMING LANGUAGES
 
-<img src="./assets/languages.dark.svg" width="100%" alt="Language Distribution"/>
+<img src="./assets/languages.dark.svg" width="100%" alt="Language Statistics"/>
 
 ### REPOSITORY INTELLIGENCE
 
@@ -233,7 +292,7 @@ $ ./analytics --user 2491zero
 
 ---
 
-# `05 // CONTRIBUTION MONITOR`
+# `06 // CONTRIBUTION MONITOR`
 
 ### ACTIVITY GRAPH
 
@@ -247,96 +306,106 @@ $ ./analytics --user 2491zero
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/2491zero/2491zero/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub Contribution Snake"/>
+<img src="https://raw.githubusercontent.com/2491zero/2491zero/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake"/>
 
 </div>
 
 ---
 
-# `06 // SECURITY ENGINEERING ROADMAP`
+# `07 // ENGINEERING ROADMAP`
 
 ```text
-                    [ 2491ZERO ]
+                      2491ZERO
                           |
               +-----------+-----------+
               |           |           |
-          NETWORK       WEB APP      LINUX
-          SECURITY     SECURITY    SECURITY
+           NETWORK       WEB         LINUX
+           SECURITY    SECURITY     SECURITY
               |           |           |
               +-----------+-----------+
                           |
-                  PYTHON ENGINEERING
+                 PYTHON ENGINEERING
                           |
-                   MALWARE ANALYSIS
+                  MALWARE ANALYSIS
                           |
-                  THREAT INTELLIGENCE
+                 THREAT INTELLIGENCE
                           |
-                  DEFENSIVE ENGINEERING
+                 DEFENSIVE ENGINEERING
                           |
-                   SECURITY RESEARCH
+                  SECURITY RESEARCH
 ```
 
-### DEVELOPMENT PRIORITIES
+### CURRENT TECHNICAL FOCUS
 
 ```text
-[01] Network traffic and protocol analysis
-[02] Web application security
-[03] Linux system hardening
-[04] Python security tooling
-[05] Malware static analysis
-[06] Threat intelligence and IOC research
+[01] Network Traffic & Protocol Analysis
+[02] Web Application Security
+[03] Linux System Hardening
+[04] Python Security Engineering
+[05] Malware Static Analysis
+[06] Threat Intelligence & IOC Research
+[07] Defensive Security Automation
 ```
 
 ---
 
-# `07 // SECURITY PRINCIPLES`
+# `08 // SECURITY PRINCIPLES`
 
 ```text
-+--------------------------------------------------+
-|              SECURITY FRAMEWORK                  |
-+--------------------------------------------------+
-| CONFIDENTIALITY  -> Protect sensitive data       |
-| INTEGRITY        -> Preserve data trust          |
-| AVAILABILITY     -> Maintain resilience          |
-| LEAST PRIVILEGE  -> Minimize access              |
-| DEFENSE IN DEPTH -> Layered protection           |
-| MONITORING       -> Detect and investigate       |
-+--------------------------------------------------+
++------------------------------------------------------+
+|               SECURITY ENGINEERING                   |
++------------------------------------------------------+
+|                                                      |
+|  CONFIDENTIALITY  -> Protect sensitive information   |
+|  INTEGRITY        -> Preserve data trust             |
+|  AVAILABILITY     -> Maintain system resilience      |
+|  LEAST PRIVILEGE  -> Minimize access                 |
+|  DEFENSE IN DEPTH -> Layered protection              |
+|  MONITORING       -> Detect and investigate          |
+|                                                      |
++------------------------------------------------------+
 ```
 
 ---
 
-# `08 // RESPONSIBLE RESEARCH`
+# `09 // RESPONSIBLE SECURITY RESEARCH`
 
-```text
-$ cat responsible_research.txt
+Security research requires authorization, responsibility, and a defensive mindset.
 
-Security research requires responsibility.
+All assessments and experiments are intended for authorized systems and controlled environments.
 
-All assessments and experiments are performed
-within authorized or controlled environments.
+```bash
+root@2491zero:~$ cat responsible_research.txt
 
-Knowledge should strengthen defense,
-not compromise systems.
+Research responsibly.
+Respect authorization.
+Protect digital infrastructure.
+Build defensive solutions.
 ```
 
 ---
 
-# `09 // CONNECTIVITY`
+# `10 // CONNECTIVITY`
 
 <div align="center">
 
 <a href="https://github.com/2491zero">
-<img src="https://img.shields.io/badge/GITHUB-2491ZERO-102719?style=for-the-badge&logo=github&logoColor=39FF88"/>
+
+<img src="https://img.shields.io/badge/GITHUB-2491ZERO-39FF88?style=for-the-badge&logo=github&logoColor=black"/>
+
 </a>
 
 <a href="https://github.com/2491zero?tab=repositories">
-<img src="https://img.shields.io/badge/REPOSITORIES-EXPLORE-102719?style=for-the-badge&logo=github&logoColor=39FF88"/>
+
+<img src="https://img.shields.io/badge/EXPLORE-REPOSITORIES-102719?style=for-the-badge&logo=github"/>
+
 </a>
 
-<br/><br/>
+<a href="https://2491zero.github.io/2491zero/">
 
-**OPEN TO SECURITY KNOWLEDGE SHARING & TECHNICAL COLLABORATION**
+<img src="https://img.shields.io/badge/LAUNCH-CYBER_DASHBOARD-102719?style=for-the-badge&logo=linux"/>
+
+</a>
 
 </div>
 
@@ -344,20 +413,14 @@ not compromise systems.
 
 <div align="center">
 
-```text
-+------------------------------------------------------+
-|                                                      |
-|  2491ZERO                                            |
-|                                                      |
-|  ENGINEER THE DEFENSE.                               |
-|  UNDERSTAND THE THREAT.                              |
-|  BUILD WITH PURPOSE.                                 |
-|                                                      |
-|  [ SYSTEM STATUS: CONTINUOUSLY LEARNING ]             |
-|                                                      |
-+------------------------------------------------------+
-```
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:20D969,50:073B20,100:020503&height=140&section=footer&animation=fadeIn" width="100%"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:20D969,50:073B20,100:020503&height=120&section=footer" width="100%"/>
+# `2491ZERO`
+
+### ENGINEER THE DEFENSE.
+
+`ANALYZE // RESEARCH // BUILD // DEFEND`
+
+<sub>CYBERSECURITY ENGINEERING | CONTINUOUS LEARNING</sub>
 
 </div>
