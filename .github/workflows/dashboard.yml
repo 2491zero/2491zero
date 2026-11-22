@@ -3,10 +3,11 @@ name: 2491ZERO Cyber Dashboard
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
     paths:
-      - "dashboard/**"
-      - ".github/workflows/dashboard.yml"
+      - 'index.html'
+      - '.github/workflows/dashboard.yml'
   workflow_dispatch:
 
 permissions:
@@ -30,14 +31,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Configure GitHub Pages
+      - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload Dashboard
+      - name: Upload Website
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dashboard
+          path: .
 
-      - name: Deploy Dashboard
+      - name: Deploy Website
         id: deployment
         uses: actions/deploy-pages@v4
