@@ -1,6 +1,14 @@
 
 <div align="center">
 
+<a href="https://2491zero.github.io/2491zero/">
+<img src="https://img.shields.io/badge/ENTER-2491ZERO_CYBER_OPERATIONS_CENTER-39FF88?style=for-the-badge&logo=linux&logoColor=black"/>
+</a>
+
+</div>
+
+<div align="center">
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020503,45:073B20,100:20D969&height=230&section=header&text=2491ZERO&fontSize=78&fontColor=39FF88&fontAlignY=38&desc=CYBERSECURITY%20ENGINEERING&descAlignY=60&descSize=19&animation=fadeIn" width="100%"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2800&pause=900&color=39FF88&center=true&vCenter=true&width=850&lines=root%402491zero%3A~%24+whoami;CYBERSECURITY+ENGINEER;NETWORK+SECURITY+%7C+WEB+SECURITY;PYTHON+%7C+LINUX+%7C+MALWARE+ANALYSIS;ENGINEER+THE+DEFENSE" />
